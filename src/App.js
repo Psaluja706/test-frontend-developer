@@ -55,50 +55,50 @@ const HomePage = () => {
         <label>
           <input
             type="checkbox"
-            checked={selectedOptions.includes('Option 1')}
-            onChange={() => handleOptionChange('Option 1')}
+            checked={selectedOptions.includes('Yes! A romantic trip')}
+            onChange={() => handleOptionChange('Yes! A romantic trip')}
           />
-          Option 1
+          Yes! A romantic trip
         </label>
         <label>
           <input
             type="checkbox"
-            checked={selectedOptions.includes('Option 2')}
-            onChange={() => handleOptionChange('Option 2')}
+            checked={selectedOptions.includes('Yes! For A family trip')}
+            onChange={() => handleOptionChange('Yes! For A family trip')}
           />
-          Option 2
+          Yes! For A family trip
         </label>
         <label>
           <input
             type="checkbox"
-            checked={selectedOptions.includes('Option 3')}
-            onChange={() => handleOptionChange('Option 3')}
+            checked={selectedOptions.includes('Yes! FOR A honeymoon trip')}
+            onChange={() => handleOptionChange('Yes! FOR A honeymoon trip')}
           />
-          Option 3
+          Yes! FOR A honeymoon trip
         </label>
         <label>
           <input
             type="checkbox"
-            checked={selectedOptions.includes('Option 4')}
-            onChange={() => handleOptionChange('Option 4')}
+            checked={selectedOptions.includes('YES FOR A TRIP WITH MY FRIENDS')}
+            onChange={() => handleOptionChange('YES FOR A TRIP WITH MY FRIENDS')}
           />
-          Option 4
+          YES FOR A TRIP WITH MY FRIENDS
         </label>
         <label>
           <input
             type="checkbox"
-            checked={selectedOptions.includes('Option 5')}
-            onChange={() => handleOptionChange('Option 5')}
+            checked={selectedOptions.includes('For a Group Trip')}
+            onChange={() => handleOptionChange('For a Group Trip')}
           />
-          Option 5
+          For a Group Trip
         </label>
         <label>
           <input
             type="checkbox"
-            checked={selectedOptions.includes('Option 6')}
-            onChange={() => handleOptionChange('Option 6')}
+            checked={selectedOptions.includes('For a solo trip')}
+            onChange={() => handleOptionChange('For a solo trip')}
           />
-          Option 6
+          For a solo trip
         </label>
         </div>
         <button onClick={handleContinue}>Continue</button>
